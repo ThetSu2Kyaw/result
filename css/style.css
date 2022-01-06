@@ -1,0 +1,54 @@
+body{
+	color: #fff;
+	background-image: linear-gradient(90deg, #701cc9, #440c66);
+}
+
+ul{
+	list-style: none;
+}
+
+ul a{
+	cursor: pointer;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	text-align: center;
+}
+
+li{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	float: left;
+	width: 24.2%;
+	padding: 5px 10px;
+}
+
+ul li:hover a{
+	color: #ca10e3;
+}
+
+h1{
+	border-top: 1px solid black;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+#p1, #p2, #p3, #p4, #p5, #p6{
+	text-align: center;
+	font-size: 15px;
+}
+
+#p1 a, #p2 a, #p3 a, #p4 a, #p5 a, #p6 a{
+	color: #333;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#student{
+	width: 70%;
+	margin: 20px auto;
+	border: 2px solid white;
+	padding: 10px;
+	border-radius: 20px;
+}
+
